@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e523b50dd7948d5bb6fe15424ca453b" Name="Diagram1">
+        <EntityTypeShape EntityType="ASODENICDBModel.Imei" Width="1.5" PointX="11.25" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.RutaCobro" Width="1.5" PointX="13.5" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.RutaCobroDetalle" Width="1.5" PointX="8.25" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.RutaCobroEstado" Width="1.5" PointX="11.25" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Banco" Width="1.5" PointX="13.5" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.TipoDocumento" Width="1.5" PointX="11.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Cliente" Width="1.5" PointX="3" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.ClienteEvaluacion" Width="1.5" PointX="11.25" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Contacto" Width="1.5" PointX="5.25" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.DatosNegocio" Width="1.5" PointX="5.25" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.DetalleCliente" Width="1.5" PointX="5.25" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.DetalleMinuta" Width="1.5" PointX="15.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Domicilio" Width="1.5" PointX="5.25" PointY="47.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Minuta" Width="1.5" PointX="13.5" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.ReferenciaCrediticia" Width="1.5" PointX="5.25" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.ResumenTransaccion" Width="1.5" PointX="5.25" PointY="56" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.tClienteCuenta" Width="1.5" PointX="11.25" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.tTipoCuenta" Width="1.5" PointX="9" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Barrio" Width="1.5" PointX="11.25" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Ciudad" Width="1.5" PointX="6" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Departamento" Width="1.5" PointX="3.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Distrito" Width="1.5" PointX="9" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.ItemRol" Width="1.5" PointX="16.5" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Pai" Width="1.5" PointX="0.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Rol" Width="1.5" PointX="14.25" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Ruta" Width="1.5" PointX="13.5" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Sucursal" Width="1.5" PointX="8.25" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.Usuario" Width="1.5" PointX="16.5" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ASODENICDBModel.UsuarioRol" Width="1.5" PointX="18.75" PointY="37.125" IsExpanded="true" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobro_Imei" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobro_Colector" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobro_RutaCobroEstado" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobro_Sucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobro_Supervisor" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobro_TipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobroDetalle_RutaCobro" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobroDetalle_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobroDetalle_tClienteCuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_DetalleMinuta_Banco" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Minuta_TipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Ruta_TipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Cliente_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Cliente_Sucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_ClienteEvaluacion_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Contacto_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_DatosNegocio_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_DetalleCliente_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Domicilio_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_IdCliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_ReferenciaCrediticia_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_tClienteCuenta_IdCliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_ClienteEvaluacion_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_DetalleMinuta_Minuta" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_tClienteCuenta_Abogado" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_tClienteCuenta_Rutas" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_tClienteCuenta_tTipoCuenta" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Barrios_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Barrios_Distritos" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Ciudad_Departamentos" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Ciudad_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Sucursal_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_ItemRol_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Usuario_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_UsuarioRol_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Ruta_Sucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Ruta_UsuarioColector" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Ruta_UsuarioSupervisor" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_Usuario_Sucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ASODENICDBModel.FK_UsuarioRol_Usuario" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ASODENICDBModel.tEstadoCuenta" Width="1.5" PointX="0.75" PointY="1" />
+        <AssociationConnector Association="ASODENICDBModel.FK_RutaCobroDetalle_tEstadoCuentas" />
+        <AssociationConnector Association="ASODENICDBModel.FK_tClienteCuenta_tEstadoCuentas" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
